@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication app</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <style>
+        body{
+            background-color:rgb(29, 27, 27);
+        }
+        h1{
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: aliceblue;
+        }
+        #input-table{
+            width:40vw;
+            outline: none;
+            border: none;
+            border-radius: 4px;
+            box-shadow:2px 2px 3px 3px rgba(184, 179, 179, 0.756);
+            height:4vh;
+            font-style: bold;
+            padding-left: 8px;
+            background-color: aliceblue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #Btn{
+             background-color: rgb(147, 79, 211);
+             outline: none;
+             border: none;
+             border-radius:3px;
+            color: white;
+            width:10vw;
+            height:30px;
+            margin-left: 4px;
+            box-shadow:2px 2px 3px 3px rgba(184, 179, 179, 0.756);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    #result{
+        position: relative;
+        left:7vw;
+        margin-top: 5vh;
+       color: aliceblue;
+        width:30vw;
+        height:60vh;
+        margin-left:5vh;
+        font-size:5vh;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+    }
+    .main{
+       position: relative;
+       left:25vw;
+       top:5vh;
+       
+    }
+
+        
+    </style>
+    <div class="main">
+    <h1>Enter the Number </h1>
+    <input id="input-table" placeholder="Enter number...">
+    <button id="Btn" onclick="multiplication()">Click</button>
+    <div id="result">
+
+
+    </div>
+</div>
+    
+</body>
+</html>
